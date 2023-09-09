@@ -13,3 +13,6 @@ Good analysis starts with questions. Below are the questions we want to answer f
 - Question 2: How should we tailor marketing and communication strategies to customer behaviors?
 - Question 3: How much can we spend on acquiring new customers?
 
+The scale model cars database schema is as follows:
+
+<img width="650" alt="image" src="https://github.com/mm230/DEJ-SQL/assets/66476737/43e9483a-5c84-4a0c-965d-b2c24e73fb0c">
