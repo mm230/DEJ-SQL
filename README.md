@@ -1,5 +1,5 @@
 # DEJ-SQL
-Customers and Products Analysis Using SQL
+## Customers and Products Analysis Using SQL
 
 Data analysis has proven to be very effective in sales. This is because we can extract key performance indicators (KPIs) to make smarter decisions. 
 This saves time, resources, and money.
