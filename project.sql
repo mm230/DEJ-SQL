@@ -1,4 +1,4 @@
-Project: Customers and Products Analysis Using SQL
+/*Project: Customers and Products Analysis Using SQL
 
 The scale model cars database contains eight tables:
 
@@ -13,21 +13,21 @@ ProductLines: a list of product line categories
 */
 
 -- 1. Displaying the first five lines from the products table:
-SELECT &quot;Customer&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM customers
+SELECT 'Customer' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM customers
 UNION ALL
-SELECT &quot;Products&quot; as table_name, 9 as number_of_attributes, count(*) as number_of_row FROM products
+SELECT 'Products' as table_name, 9 as number_of_attributes, count(*) as number_of_row FROM products
 UNION ALL
-SELECT &quot;Productlines&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM productlines
+SELECT 'Productlines' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM productlines
 UNION ALL
-SELECT &quot;Orders&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM orders
+SELECT 'Orders' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM orders
 UNION ALL
-SELECT &quot;OrderDetails&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM orderdetails
+SELECT 'OrderDetails' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM orderdetails
 UNION ALL
-SELECT &quot;Payments&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM payments
+SELECT 'Payments' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM payments
 UNION ALL
-SELECT &quot;Employees&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM employees
+SELECT 'Employees'; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM employees
 UNION ALL
-SELECT &quot;Offices&quot; as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM offices;
+SELECT 'Offices' as table_name, 13 as number_of_attributes, count(*) as number_of_row FROM offices;
 
 -- 2. Write a query to compute the low stock for each product using a correlated subquery.
 WITH low_stock_products  AS(
